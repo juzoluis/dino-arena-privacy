@@ -55,11 +55,9 @@ não usamos essas mensagens para nada.**
 **Por quanto tempo:** a sala existe enquanto a partida existe. Quando a última pessoa sai, o
 conteúdo da sala é **apagado**. Nada de duelo fica guardado no servidor depois disso.
 
-**Contagem por endereço de IP:** para impedir que alguém abra salas em massa, o servidor mantém um
-**contador temporário por endereço de IP**, que se apaga sozinho ao fim da janela de contagem. É um
-número de tentativas — não guarda quem jogou, com quem, nem o que foi jogado. O endereço de IP é o
-dado técnico que qualquer conexão de internet expõe, e o tratamento dele pela Cloudflare segue a
-política da própria Cloudflare.
+**Endereço de IP:** o endereço de IP é o dado técnico que qualquer conexão de internet expõe. Ele
+chega à Cloudflare, que hospeda o servidor de retransmissão, e o tratamento dele segue a política da
+própria Cloudflare. **Nós não guardamos, não contamos e não usamos o endereço de IP para nada.**
 
 **O placar de rivais é do seu aparelho.** A lista de quem você enfrentou, com o retrospecto, fica
 salva **só no seu celular**, junto com o resto do progresso. Não existe placar mundial, nem ranking
@@ -153,11 +151,9 @@ messages for anything.**
 **For how long:** the room exists while the match exists. When the last person leaves, the room's
 contents are **deleted**. Nothing from a duel remains on the server afterwards.
 
-**Per-IP counting:** to prevent someone from opening rooms en masse, the server keeps a **temporary
-counter per IP address**, which erases itself at the end of the counting window. It is a number of
-attempts — it does not record who played, with whom, or what was played. The IP address is the
-technical data any internet connection exposes, and Cloudflare's handling of it follows Cloudflare's
-own policy.
+**IP address:** an IP address is the technical data that any internet connection exposes. It reaches
+Cloudflare, which hosts the relay server, and Cloudflare's own policy governs how it is handled.
+**We do not store, count, or use IP addresses for anything.**
 
 **The rivals scoreboard belongs to your device.** The list of who you faced, with the win/loss
 record, is stored **only on your phone**, along with the rest of your progress. There is no global
